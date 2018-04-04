@@ -1,0 +1,27 @@
+img {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top:50%;
+  left:50%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100wh;
+	height: 90vh;
+	background-color: #000000 !important;
+	background-size: 400% 400%;
+}
+
+h1 {
+	color:#303030
+}
+
+h2 {
+	color:#505050
+}
+
+embed { 
+   display:none;
+}

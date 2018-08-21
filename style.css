@@ -51,10 +51,8 @@ a:hover, a:focus {
 
 
 body {
-	Margin: 0 auto;
-	padding: 0;
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background-image: url("https://raw.githubusercontent.com/Flygoow/flygoow.github.io/master/back.jpg")
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+background-image: url("https://raw.githubusercontent.com/Flygoow/flygoow.github.io/master/back.jpg")
 }

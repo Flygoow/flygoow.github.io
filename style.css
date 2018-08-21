@@ -1,7 +1,16 @@
-#particles-js {
-width:100%;
-height:100%;
+html, body {
+  background-color: #000;
+  width: 100%;
+  height:100%;
+  margin: 0;
+  overflow: hidden;
 }
+
+#bm {
+  width: 100%;
+  height: 100%;
+}
+
 
 canvas {
 display: inline-block;
@@ -13,12 +22,14 @@ top: 0%;
 }
 
 .fullscreenDiv {
-margin: 0 auto;
+margin: 15% auto;
 width: 100%;
 height: auto;
 bottom: 0px;
 top: 0px;
 left: 0;
+margin-left: auto;
+margin-right: auto;
 }
 
 img {

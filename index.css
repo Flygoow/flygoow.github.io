@@ -44,6 +44,8 @@ img.center {
 }
 
 .textes {
+    position: relative;;
+    bottom:-90%;
     z-index: 2;
     text-align: center;
 }
@@ -63,3 +65,4 @@ img.center {
 #github {
     display: inline-block;
 }
+

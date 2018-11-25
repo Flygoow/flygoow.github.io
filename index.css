@@ -1,0 +1,65 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    transition:.75s;
+    color: #e6e6e6;
+    background-color: transparent;
+    transition:.75s;
+    text-shadow:2px 2px 0 rgba(0,0,0,.25);
+}
+
+a:active {
+    transition:.25s;
+    color: #e6e6e6;
+    background-color: transparent;
+}
+
+h2{
+    transition: .75s;
+    color: #e2e2e2;
+    font-family: 'Cutive Mono', monospace;
+    display: inline;
+    text-shadow:2px 2px 0 rgba(0,0,0,.25);
+}
+
+body {
+    transition: .75s;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.textes {
+    z-index: 2;
+    text-align: center;
+}
+
+#twitter {
+    display: inline-block;
+}
+#youtube {
+    display: inline-block;
+}
+#twitch {
+    display: inline-block;
+}
+#discord {
+    display: inline-block;
+}
+#github {
+    display: inline-block;
+}

@@ -5,6 +5,11 @@ img {
   left:50%;
 }
 
+#image{
+position:absolute;
+width:10%
+}
+
 body {
 	margin: 0;
 	padding: 0;

@@ -153,7 +153,7 @@ const questions = [
   },
   {
     categorie: 'bigard',
-    texte: "<img src=images/bigard.jpeg><br>Aimez-vous cette photo ?",
+    texte: "<img src=images/bigard.jpg><br>Aimez-vous cette photo ?",
     choix: {'Oui': 1, 'Non':-2}
   },
   {

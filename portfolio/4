@@ -1,0 +1,28 @@
+.K_-PBLO6gCyKC_wfq1I9C {
+  margin-top: -15px;
+  opacity: 0;
+  transition: none; }
+
+._3xmujiwcoMWzQZHBiMzCqf {
+  margin-top: 5px;
+  opacity: 1;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.85); }
+
+.G6l9E4XWeWhI-QY9tDyoE {
+  margin-top: 5px;
+  opacity: 1; }
+
+._1TSkok3HshuWSp8g1RFGUJ {
+  margin-top: 5px;
+  opacity: 1; }
+
+._1wF4NBgMDYgly798Ct8Bb1 {
+  margin-top: -15px;
+  opacity: 0;
+  transition: all 200ms ease-out; }
+
+._2izP2_uus2bMQMmKrK9miv {
+  margin-top: -15px;
+  opacity: 0; }

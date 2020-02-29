@@ -1,0 +1,71 @@
+@charset "UTF-8";
+._2x2rQlxE1rcjMhls6Ll_cc {
+  overflow-y: scroll; }
+
+._22Vz4kIhzySfpU33soh7TZ {
+  align-items: center;
+  background: rgba(27, 34, 43, 0.98);
+  display: flex;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  height: 100%;
+  width: 100%; }
+
+._2b0MjVDtstFVtnxUIPD4rs {
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  left: 50%;
+  margin: auto;
+  max-width: 780px;
+  opacity: 0;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-family: "adobe-clean", "Adobe Clean", sans-serif; }
+  .wf-active ._2b0MjVDtstFVtnxUIPD4rs {
+    opacity: 1; }
+  :lang(ja) ._2b0MjVDtstFVtnxUIPD4rs {
+    font-family: "adobe-clean-han-japanese", "Yu Gothic", "メイリオ", "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro W3", "Osaka", "ＭＳＰゴシック", "MS PGothic", "sans-serif"; }
+  :lang(ko) ._2b0MjVDtstFVtnxUIPD4rs {
+    font-family: "adobe-clean-han-korean", "Malgun Gothic", "Apple Gothic", sans-serif; }
+  :lang(zh) ._2b0MjVDtstFVtnxUIPD4rs,
+  :lang(zh-Hans) ._2b0MjVDtstFVtnxUIPD4rs {
+    font-family: "adobe-clean-han-simplified-c", "SimSun", "Heiti SC Light", "sans-serif"; }
+  :lang(zh-Hant) ._2b0MjVDtstFVtnxUIPD4rs {
+    font-family: "adobe-clean-han-traditional", "MingLiu", "Heiti TC Light", "sans-serif"; }
+  ._1tAlqfv3iAfXu1P0Hy7EL- ._2b0MjVDtstFVtnxUIPD4rs {
+    font-family: "adobe", sans-serif; }
+
+._239YLzHo5VlN_TXL_XYYid {
+  font-size: 47px;
+  font-weight: 200;
+  line-height: 47px;
+  margin-bottom: 20px; }
+
+._3vkE-nXnMZSI_WC7Zh7mZC {
+  color: #888f99;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 35px; }
+
+@media (max-width: 980px) {
+  ._2b0MjVDtstFVtnxUIPD4rs {
+    padding: 0 10%; }
+  ._239YLzHo5VlN_TXL_XYYid {
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 16px; }
+  ._3vkE-nXnMZSI_WC7Zh7mZC {
+    font-size: 18px;
+    line-height: 26px; } }
+
+@media (max-width: 530px) {
+  ._239YLzHo5VlN_TXL_XYYid {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 13px; }
+  ._3vkE-nXnMZSI_WC7Zh7mZC {
+    font-size: 16px;
+    line-height: 22px; } }

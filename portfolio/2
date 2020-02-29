@@ -1,0 +1,24 @@
+@font-face {
+ font-family:adobe-clean;
+ src:url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/l?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n4&v=3) format("woff2"),
+ url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/d?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n4&v=3) format("woff"),
+ url(https://use.typekit.net/af/cb695f/000000000000000000017701/27/a?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n4&v=3) format("opentype");
+ font-weight:400;
+ font-style:normal;
+}
+@font-face {
+ font-family:adobe-clean;
+ src:url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/l?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n7&v=3) format("woff2"),
+ url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/d?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n7&v=3) format("woff"),
+ url(https://use.typekit.net/af/eaf09c/000000000000000000017703/27/a?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n7&v=3) format("opentype");
+ font-weight:700;
+ font-style:normal;
+}
+@font-face {
+ font-family:adobe-clean;
+ src:url(https://use.typekit.net/af/40207f/0000000000000000000176ff/27/l?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n3&v=3) format("woff2"),
+ url(https://use.typekit.net/af/40207f/0000000000000000000176ff/27/d?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n3&v=3) format("woff"),
+ url(https://use.typekit.net/af/40207f/0000000000000000000176ff/27/a?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n3&v=3) format("opentype");
+ font-weight:300;
+ font-style:normal;
+}

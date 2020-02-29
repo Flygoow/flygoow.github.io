@@ -1,0 +1,30 @@
+._1kauHAuE3PZHyYqRKArs3w {
+  overflow-y: scroll; }
+
+._1s-bHWaJ3FrQicNCwmfwF {
+  align-items: center;
+  background: rgba(27, 34, 43, 0.7);
+  display: flex;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; }
+  @media (max-width: 530px) {
+    ._1s-bHWaJ3FrQicNCwmfwF {
+      align-items: normal;
+      background: #fff;
+      top: 0; } }
+
+._1Wxbk_LkNVR_nzZnUxBUva {
+  background: #fff;
+  border-radius: 6px;
+  color: #3c3c3c;
+  margin: 0 auto;
+  padding: 40px 50px;
+  position: relative; }
+  @media (max-width: 530px) {
+    ._1Wxbk_LkNVR_nzZnUxBUva {
+      border-radius: 0;
+      padding: 100px 0 40px; } }

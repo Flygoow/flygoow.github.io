@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: flygoow.party
+Token: 40349223aff71cfea15dd4ad8ab9604b6d3f80a0999ef74f40ab67842a901cd5 

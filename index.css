@@ -1,91 +1,140 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
-
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    transition:.75s;
-    color: #e6e6e6;
-    background-color: transparent;
-    transition:.75s;
-    text-shadow:2px 2px 0 rgba(0,0,0,.25);
-}
-
-a:active {
-    transition:.25s;
-    color: #e6e6e6;
-    background-color: transparent;
-}
-
-h2{
-    transition: .75s;
-    color: #e2e2e2;
-    font-family: 'Cutive Mono', monospace;
-    display: inline;
-    text-shadow:2px 2px 0 rgba(0,0,0,.25);
-    margin-top: 10px;
+@font-face {
+    font-family: '04b03';
+    src:url('fonts/webfonts_04b03/04b03.ttf.woff') format('woff'),
+        url('fonts/webfonts_04b03/04b03.ttf.svg') format('svg'),
+        url('fonts/webfonts_04b03/04b03.ttf.eot'),
+        url('fonts/webfonts_04b03/04b03.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-    transition: .75s;
+    text-rendering: optimizeLegibility;
 }
 
-img.center {
-    display: block;
-    margin: 0 auto;
+html {
+    cursor:crosshair;
 }
 
-img {
-  max-height: 150%;
-  max-width: 150%;
-  width: 50%;
-  height: auto;
+#video_bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
 }
 
-.textes {
-    position: unset;
-    bottom:-90%;
-    z-index: 2;
-    text-align: center;
-    margin-top: 15px;
+.contenu {
+    position: fixed;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+#pause {
+    font-size: 20px;
+    padding-left: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    font-family: '04b03';
+  }
+  
+#info {
+    font-family: '04b03';
+    display: inline-block;
+    transform-origin: left;
 }
 
-#twitter {
-    display: inline-block;
+.titre {
+    color: white;
+    padding: 15px;
+    position: absolute;
+    top: 620%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    font-family: 'PT Serif', serif;
 }
-#youtube {
-    display: inline-block;
+
+.reseaux {
+    font-family: 'Cutive Mono', monospace;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 18px;
 }
-#twitch {
-    display: inline-block;
+
+.icones {
+    position: absolute;
+    right: 30px;
+    top: 810px;
 }
-#discord {
-    display: inline-block;
-}
-#github {
-    display: inline-block;
-}
-#wankil {
-    display: inline-block;
-}
-#contact {
-    display: inline-block;
+
+#truc {
+    width: 230px;
 }
 
 p {
-    font-family: 'Cutive Mono', monospace;
-    color:white;
-    text-align:center;
-    text-shadow:2px 2px 0 rgba(0,0,0,.25);
-    width: 70%;
-    margin: 0 auto;
+    text-shadow: rgb(0 0 0 / 25%) 2px 2px 0px;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.media-canvas #unprocessed-canvas {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+shader-doodle {
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    display: block;
+}
+
+.media-canvas {
+    background: #000;
+}
+
+.contenu {
+    z-index: 2;
+}
+
+.wrapper {
+    margin: 30px;
+    top: 410px;
+    position: fixed;
+    color: white;
+    opacity: 50%;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    scroll-snap-align: center;
+}
+
+h1 {
+    font-size: 200px !important;
+}
+
+.video, .photo {
+    margin-bottom: -50px;
 }
